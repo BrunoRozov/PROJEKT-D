@@ -1,6 +1,11 @@
 @import "_variables";
 @import "_header";
 
+button {
+    display: block;
+    margin: 0 auto;
+}
+
 .contact {
     @extend header;
     background: pink;

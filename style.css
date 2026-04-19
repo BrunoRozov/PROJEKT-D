@@ -1,16 +1,21 @@
 header, .contact {
-  height: 100vh;
-  color: rgb(0, 17, 255);
-  background: lightblue;
+  height: 500px;
 }
 header button, .contact button {
-  background: red;
-}
-header button::after, .contact button::after {
-  content: "hello";
+  background: rgb(37, 163, 221);
 }
 header button:hover, .contact button:hover {
-  background: pink;
+  background: white;
+}
+
+h1 {
+  text-align: center;
+  line-height: 100px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
 }
 
 .contact {
