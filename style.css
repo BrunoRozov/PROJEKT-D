@@ -1,0 +1,50 @@
+.navbar {
+  background: linear-gradient(270deg, #f8f0ff, #ffe3ff, #ffb8ff, #f8f0ff) !important;
+  background-size: 400% 400% !important;
+  animation: navbar-background 12s ease infinite !important;
+}
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .dropdown-item,
+.navbar .btn-outline-danger {
+  color: #e718ee !important;
+}
+.navbar .btn-outline-danger {
+  border-color: #e718ee;
+}
+.navbar .btn-outline-danger:hover, .navbar .btn-outline-danger:focus {
+  background-color: #e718ee;
+  color: #ffffff !important;
+  border-color: #e718ee;
+}
+
+@keyframes navbar-background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.card .btn-outline-danger {
+  color: #e718ee !important;
+  border-color: #e718ee;
+}
+.card .btn-outline-danger:hover, .card .btn-outline-danger:focus {
+  background-color: #e718ee;
+  color: #ffffff !important;
+  border-color: #e718ee;
+}
+
+.list-group-item.list-group-item-action {
+  color: #e718ee !important;
+  border-color: #e718ee;
+}
+.list-group-item.list-group-item-action:hover, .list-group-item.list-group-item-action:focus {
+  background-color: #e718ee;
+  color: #ffffff !important;
+  border-color: #e718ee;
+}/*# sourceMappingURL=style.css.map */

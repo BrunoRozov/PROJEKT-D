@@ -1,0 +1,69 @@
+$danger: #e718ee;
+
+.navbar {
+  background: linear-gradient(
+    270deg,
+    #f8f0ff,
+    #ffe3ff,
+    #ffb8ff,
+    #f8f0ff
+  ) !important;
+  background-size: 400% 400% !important;
+  animation: navbar-background 12s ease infinite !important;
+
+  .navbar-brand,
+  .nav-link,
+  .dropdown-item,
+  .btn-outline-danger {
+    color: $danger !important;
+  }
+
+  .btn-outline-danger {
+    border-color: $danger;
+
+    &:hover,
+    &:focus {
+      background-color: $danger;
+      color: #ffffff !important;
+      border-color: $danger;
+    }
+  }
+}
+
+@keyframes navbar-background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.card {
+  .btn-outline-danger {
+    color: $danger !important;
+    border-color: $danger;
+
+    &:hover,
+    &:focus {
+      background-color: $danger;
+      color: #ffffff !important;
+      border-color: $danger;
+    }
+  }
+}
+
+.list-group-item.list-group-item-action {
+  color: $danger !important;
+  border-color: $danger;
+
+  &:hover,
+  &:focus {
+    background-color: $danger;
+    color: #ffffff !important;
+    border-color: $danger;
+  }
+}
